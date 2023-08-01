@@ -6,4 +6,5 @@ def main():
 4 - Fecho do programa
 ''')
           
-          
+def user():
+    print()
