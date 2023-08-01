@@ -1,4 +1,7 @@
+from style import estilo
+
 def main():
+    estilo('Convivio do Futungo')
     print('''
 1 - Registrar uma compra
 2 - Ultima factura
