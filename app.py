@@ -1,3 +1,4 @@
-from opt import main
+from opt import main, user
 
+user()
 main()
