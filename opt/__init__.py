@@ -12,6 +12,8 @@ def main():
           
 def user():
     estilo('LOGIN DO SISTEMA')
-    nome = str(input('Digite o seu nome: '))
-    code = input('Digite o seu codigo de funcionario: ')
-    print(f'Seja bem-vindo {nome}')
+    leitura = str(input('Digite o seu codigo funcionario: ')).strip()
+    if leitura not in code:
+        print('Utilizador inexistente')
+    passe = str(input('Digite a sua senha: ')).strip()
+    print(f'Seja bem-vindo ')
