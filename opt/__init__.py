@@ -10,4 +10,7 @@ def main():
 ''')
           
 def user():
-    print()
+    estilo('LOGIN DO SISTEMA')
+    nome = str(input('Digite o seu nome: '))
+    code = input('Digite o seu codigo de funcionario: ')
+    print(f'Seja bem-vindo {nome}')
