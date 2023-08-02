@@ -15,4 +15,3 @@ code = ['ls3222',
         'as2126',
         'al7981'
         ]
-print(nomes[0])

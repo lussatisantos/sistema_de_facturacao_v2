@@ -1,4 +1,5 @@
 from style import estilo
+from usuario import code, nomes, senha
 
 def main():
     estilo('Convivio do Futungo')
