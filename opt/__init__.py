@@ -11,7 +11,7 @@ def main():
 ''')
           
 def user():
-    estilo('LOGIN DO SISTEMA')
+    estilo('SISTEMA DE LOGIN')
     leitura = str(input('Digite o seu codigo funcionario: ')).strip()
     if leitura not in code:
         print('Utilizador inexistente')
