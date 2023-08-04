@@ -20,4 +20,10 @@ def user():
         else:
             break
     passe = str(input('Digite a sua senha: ')).strip()
+    while True:
+        if passe not in code:
+            print('Codigo incorrecto')
+            passe = str(input('Por favor digite novamente: ')).strip()
+        else:
+            break
     print(f'Seja bem-vindo ')
