@@ -21,9 +21,11 @@ def user():
             break
     passe = str(input('Digite a sua senha: ')).strip()
     while True:
-        if passe not in code:
+        if passe not in senha:
             print('Codigo incorrecto')
             passe = str(input('Por favor digite novamente: ')).strip()
         else:
             break
+
+    #Condicoes de usuarios e senha
     print(f'Seja bem-vindo ')
