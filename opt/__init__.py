@@ -13,7 +13,11 @@ def main():
 def user():
     estilo('SISTEMA DE LOGIN')
     leitura = str(input('Digite o seu codigo funcionario: ')).strip()
-    if leitura not in code:
-        print('Utilizador inexistente')
+    while True:
+        if leitura not in code:
+            print('Utilizador inexistente')
+            leitura = str(input('Digite novamente o codigo de funcionario: ')).strip()
+        else:
+            break
     passe = str(input('Digite a sua senha: ')).strip()
     print(f'Seja bem-vindo ')
