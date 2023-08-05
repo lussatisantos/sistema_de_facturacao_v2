@@ -1,7 +1,7 @@
 nomes = ['Lussati Santos',
          'Merciany Paulo',
-         'Alexandre Sambaka',
-         'Adelino Lussati'
+         'Alexandre Victorino',
+         'Adelino Chimbanda'
          ]
 
 senha = ['46258d',
