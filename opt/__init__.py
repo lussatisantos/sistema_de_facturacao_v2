@@ -27,5 +27,9 @@ def user():
         else:
             break
 
-    #Condicoes de usuarios e senha
+    #Condicoes de code e senha
+    if leitura == code[0] and passe == senha[0]:
+        print(f'Seja bem-vindo {nomes[0]}')
+    else:
+        print(f'Codigo ou senha incorrecta')
     print(f'Seja bem-vindo ')
