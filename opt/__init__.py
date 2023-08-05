@@ -42,4 +42,8 @@ def user():
         print(f'Seja bem-vindo {nomes[2]}')
     else:
         print(f'Codigo ou senha incorrecta')
-    print(f'Seja bem-vindo ')
+
+    if leitura == code[3] and passe == senha[3]:
+        print(f'Seja bem-vindo {nomes[3]}')
+    else:
+        print(f'Codigo ou senha incorrecta')
