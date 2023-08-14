@@ -28,13 +28,18 @@ def user():
             break
 
     #Condicoes de code e senha
-    if leitura == code[0] and passe == senha[0]:
-        print(f'Seja bem-vindo {nomes[0]}')
-    elif leitura == code[1] and passe == senha[1]:
-        print(f'Seja bem-vindo {nomes[1]}')
-    elif leitura == code[2] and passe == senha[2]:
-        print(f'Seja bem-vindo {nomes[2]}')
-    elif leitura == code[3] and passe == senha[3]:
-        print(f'Seja bem-vindo {nomes[3]}')
-    else:
-        print(f'Codigo ou senha incorrecta')
+    while True:
+        if leitura == code[0] and passe == senha[0]:
+            print(f'Seja bem-vindo {nomes[0]}')
+            break
+        elif leitura == code[1] and passe == senha[1]:
+            print(f'Seja bem-vindo {nomes[1]}')
+            break
+        elif leitura == code[2] and passe == senha[2]:
+            print(f'Seja bem-vindo {nomes[2]}')
+            break
+        elif leitura == code[3] and passe == senha[3]:
+            print(f'Seja bem-vindo {nomes[3]}')
+            break
+        else:
+            print(f'Codigo ou senha incorrecta')
