@@ -42,5 +42,5 @@ def user():
             print(f'Seja bem-vindo {nomes[3]}')
             break
         else:
-            print(f'Codigo ou senha incorrecta, por favor insira novamente os dados')
+            print(f'Codigo ou senha nao associados, por favor insira novamente os dados')
             user()
